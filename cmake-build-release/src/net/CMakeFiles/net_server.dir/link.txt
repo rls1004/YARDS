@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc libnet_server.a  CMakeFiles/net_server.dir/Server.cpp.o
+/usr/bin/ranlib.exe libnet_server.a

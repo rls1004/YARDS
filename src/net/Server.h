@@ -5,7 +5,8 @@
 #ifndef YARDS_SERVER_H
 #define YARDS_SERVER_H
 
-#include <cygwin/in.h>
+//#include <cygwin/in.h>
+#include <netinet/in.h>
 #include <string>
 
 namespace net {

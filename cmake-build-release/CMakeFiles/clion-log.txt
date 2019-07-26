@@ -1,0 +1,126 @@
+C:\Users\user\.CLion2019.1\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" /cygdrive/j/MZ/GitProjects/YARDS
+CMake Warning at /home/sage/.CLion2019.1/system/cygwin_cmake/share/cmake-3.14.3/Modules/Platform/CYGWIN.cmake:15 (message):
+  CMake no longer defines WIN32 on Cygwin!
+
+  (1) If you are just trying to build this project, ignore this warning or
+  quiet it by setting CMAKE_LEGACY_CYGWIN_WIN32=0 in your environment or in
+  the CMake cache.  If later configuration or build errors occur then this
+  project may have been written under the assumption that Cygwin is WIN32.
+  In that case, set CMAKE_LEGACY_CYGWIN_WIN32=1 instead.
+
+  (2) If you are developing this project, add the line
+
+    set(CMAKE_LEGACY_CYGWIN_WIN32 0) # Remove when CMake >= 2.8.4 is required
+
+  at the top of your top-level CMakeLists.txt file or set the minimum
+  required version of CMake to 2.8.4 or higher.  Then teach your project to
+  build on Cygwin without WIN32.
+Call Stack (most recent call first):
+  /home/sage/.CLion2019.1/system/cygwin_cmake/share/cmake-3.14.3/Modules/CMakeSystemSpecificInformation.cmake:26 (include)
+  CMakeLists.txt:3 (project)
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cygdrive/j/MZ/GitProjects/YARDS/cmake-build-release/googletest-download
+bash.exe: warning: could not find /tmp, please create!
+bash.exe: warning: could not find /tmp, please create!
+[ 11%] Performing update step for 'googletest'
+bash.exe: warning: could not find /tmp, please create!
+Current branch master is up to date.
+bash.exe: warning: could not find /tmp, please create!
+bash.exe: warning: could not find /tmp, please create!
+[ 22%] No configure step for 'googletest'
+bash.exe: warning: could not find /tmp, please create!
+bash.exe: warning: could not find /tmp, please create!
+bash.exe: warning: could not find /tmp, please create!
+[ 33%] No build step for 'googletest'
+bash.exe: warning: could not find /tmp, please create!
+bash.exe: warning: could not find /tmp, please create!
+bash.exe: warning: could not find /tmp, please create!
+[ 44%] No install step for 'googletest'
+bash.exe: warning: could not find /tmp, please create!
+bash.exe: warning: could not find /tmp, please create!
+bash.exe: warning: could not find /tmp, please create!
+[ 55%] No test step for 'googletest'
+bash.exe: warning: could not find /tmp, please create!
+bash.exe: warning: could not find /tmp, please create!
+bash.exe: warning: could not find /tmp, please create!
+[ 66%] Completed 'googletest'
+bash.exe: warning: could not find /tmp, please create!
+[100%] Built target googletest
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cygdrive/j/MZ/GitProjects/YARDS/cmake-build-release
+
+Cannot get compiler information:
+	Compiler exited with error code 1: C:\Users\user\AppData\Local\SageMath 8.4\runtime\bin\c++.exe -xc++ -isystem /cygdrive/j/MZ/GitProjects/YARDS/cmake-build-release/googletest-src/googletest/include -isystem /cygdrive/j/MZ/GitProjects/YARDS/cmake-build-release/googletest-src/googletest -O3 -DNDEBUG -std=gnu++14 -fpch-preprocess -v -dD -E
+	c++: error: /tmp/response-file4385546597929170114.txt: No such file or directory
+	c++: error: /tmp/compiler-file4054882450439646014: No such file or directory
+	c++: fatal error: no input files
+	compilation terminated.
+	
+	
+	Compiler exited with error code 1: C:\Users\user\AppData\Local\SageMath 8.4\runtime\bin\c++.exe -xc++ -I/cygdrive/j/MZ/GitProjects/YARDS/cmake-build-release/googletest-src/googlemock/include -I/cygdrive/j/MZ/GitProjects/YARDS/cmake-build-release/googletest-src/googlemock -isystem /cygdrive/j/MZ/GitProjects/YARDS/cmake-build-release/googletest-src/googletest/include -isystem /cygdrive/j/MZ/GitProjects/YARDS/cmake-build-release/googletest-src/googletest -O3 -DNDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=gnu++11 -fpch-preprocess -v -dD -E
+	c++: error: /tmp/response-file7688912624297709715.txt: No such file or directory
+	c++: error: /tmp/compiler-file7213591560473755070: No such file or directory
+	c++: fatal error: no input files
+	compilation terminated.
+	
+	
+	Compiler exited with error code 1: C:\Users\user\AppData\Local\SageMath 8.4\runtime\bin\c++.exe -xc++ -isystem /cygdrive/j/MZ/GitProjects/YARDS/cmake-build-release/googletest-src/googlemock/include -isystem /cygdrive/j/MZ/GitProjects/YARDS/cmake-build-release/googletest-src/googlemock -isystem /cygdrive/j/MZ/GitProjects/YARDS/cmake-build-release/googletest-src/googletest/include -isystem /cygdrive/j/MZ/GitProjects/YARDS/cmake-build-release/googletest-src/googletest -O3 -DNDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=gnu++11 -fpch-preprocess -v -dD -E
+	c++: error: /tmp/response-file5902501103776265735.txt: No such file or directory
+	c++: error: /tmp/compiler-file6227643633007953936: No such file or directory
+	c++: fatal error: no input files
+	compilation terminated.
+	
+	
+	Compiler exited with error code 1: C:\Users\user\AppData\Local\SageMath 8.4\runtime\bin\c++.exe -xc++ -I/cygdrive/j/MZ/GitProjects/YARDS/cmake-build-release/googletest-src/googletest/include -I/cygdrive/j/MZ/GitProjects/YARDS/cmake-build-release/googletest-src/googletest -O3 -DNDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=gnu++11 -fpch-preprocess -v -dD -E
+	c++: error: /tmp/response-file2328373025427491067.txt: No such file or directory
+	c++: error: /tmp/compiler-file7963556512434432678: No such file or directory
+	c++: fatal error: no input files
+	compilation terminated.
+	
+	
+	Compiler exited with error code 1: C:\Users\user\AppData\Local\SageMath 8.4\runtime\bin\c++.exe -xc++ -isystem /cygdrive/j/MZ/GitProjects/YARDS/cmake-build-release/googletest-src/googletest/include -isystem /cygdrive/j/MZ/GitProjects/YARDS/cmake-build-release/googletest-src/googletest -O3 -DNDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=gnu++11 -fpch-preprocess -v -dD -E
+	c++: error: /tmp/response-file6393084581591134053.txt: No such file or directory
+	c++: error: /tmp/compiler-file2850726583455631465: No such file or directory
+	c++: fatal error: no input files
+	compilation terminated.
+	
+	
+	Compiler exited with error code 1: C:\Users\user\AppData\Local\SageMath 8.4\runtime\bin\c++.exe -xc++ -O3 -DNDEBUG -std=gnu++14 -fpch-preprocess -v -dD -E
+	c++: error: /tmp/response-file6525149328615461505.txt: No such file or directory
+	c++: error: /tmp/compiler-file7980313627643427146: No such file or directory
+	c++: fatal error: no input files
+	compilation terminated.
+	
+	
+	Compiler exited with error code 1: C:\Users\user\AppData\Local\SageMath 8.4\runtime\bin\c++.exe -xc++ -O3 -DNDEBUG -std=gnu++14 -fpch-preprocess -v -dD -E
+	c++: error: /tmp/response-file327877479149683925.txt: No such file or directory
+	c++: error: /tmp/compiler-file1817354915236810633: No such file or directory
+	c++: fatal error: no input files
+	compilation terminated.
+	
+	
+	Compiler exited with error code 1: C:\Users\user\AppData\Local\SageMath 8.4\runtime\bin\c++.exe -xc++ -O3 -DNDEBUG -std=gnu++14 -fpch-preprocess -v -dD -E
+	c++: error: /tmp/response-file934587936463148752.txt: No such file or directory
+	c++: error: /tmp/compiler-file4309834181946919989: No such file or directory
+	c++: fatal error: no input files
+	compilation terminated.
+	
+	
+	Compiler exited with error code 1: C:\Users\user\AppData\Local\SageMath 8.4\runtime\bin\c++.exe -xc++ -O3 -DNDEBUG -std=gnu++14 -fpch-preprocess -v -dD -E
+	c++: error: /tmp/response-file2621662188722148985.txt: No such file or directory
+	c++: error: /tmp/compiler-file241096063600295068: No such file or directory
+	c++: fatal error: no input files
+	compilation terminated.
+	
+	
+	Compiler exited with error code 1: C:\Users\user\AppData\Local\SageMath 8.4\runtime\bin\c++.exe -xc++ -O3 -DNDEBUG -std=gnu++14 -fpch-preprocess -v -dD -E
+	c++: error: /tmp/response-file2621662188722148985.txt: No such file or directory
+	c++: error: /tmp/compiler-file241096063600295068: No such file or directory
+	c++: fatal error: no input files
+	compilation terminated.
+	
+	

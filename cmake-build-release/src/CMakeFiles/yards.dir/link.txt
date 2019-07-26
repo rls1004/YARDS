@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -O3 -DNDEBUG  -Wl,--enable-auto-import CMakeFiles/yards.dir/main.cpp.o  -o yards.exe -Wl,--out-implib,libyards.dll.a -Wl,--major-image-version,0,--minor-image-version,0 base/data/libdata_pack.a base/libdict.a net/libnet_server.a 

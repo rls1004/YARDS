@@ -1,0 +1,14 @@
+# Target labels
+ googletest
+# Source files and their labels
+J:/MZ/GitProjects/YARDS/cmake-build-debug-mingw/googletest-download/CMakeFiles/googletest
+J:/MZ/GitProjects/YARDS/cmake-build-debug-mingw/googletest-download/CMakeFiles/googletest.rule
+J:/MZ/GitProjects/YARDS/cmake-build-debug-mingw/googletest-download/CMakeFiles/googletest-complete.rule
+J:/MZ/GitProjects/YARDS/cmake-build-debug-mingw/googletest-download/googletest-prefix/src/googletest-stamp/googletest-install.rule
+J:/MZ/GitProjects/YARDS/cmake-build-debug-mingw/googletest-download/googletest-prefix/src/googletest-stamp/googletest-mkdir.rule
+J:/MZ/GitProjects/YARDS/cmake-build-debug-mingw/googletest-download/googletest-prefix/src/googletest-stamp/googletest-download.rule
+J:/MZ/GitProjects/YARDS/cmake-build-debug-mingw/googletest-download/googletest-prefix/src/googletest-stamp/googletest-update.rule
+J:/MZ/GitProjects/YARDS/cmake-build-debug-mingw/googletest-download/googletest-prefix/src/googletest-stamp/googletest-patch.rule
+J:/MZ/GitProjects/YARDS/cmake-build-debug-mingw/googletest-download/googletest-prefix/src/googletest-stamp/googletest-configure.rule
+J:/MZ/GitProjects/YARDS/cmake-build-debug-mingw/googletest-download/googletest-prefix/src/googletest-stamp/googletest-build.rule
+J:/MZ/GitProjects/YARDS/cmake-build-debug-mingw/googletest-download/googletest-prefix/src/googletest-stamp/googletest-test.rule

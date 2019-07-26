@@ -72,7 +72,7 @@ bool Server::isRun() {
 void Server::create() {
     serv_addr.sin_family = AF_INET;
     serv_addr.sin_port = htons(serv_port);
-    serv_addr.sin_addr.s_addr = inet_addr(serv_ip.c_str()); //INADDR_ANY;
+    serv_addr.sin_addr.s_addr = INADDR_ANY;//inet_addr(serv_ip.c_str()); //INADDR_ANY;
 
     serv_sock = socket(AF_INET, SOCK_STREAM, 0);
 
@@ -120,6 +120,8 @@ void Server::socketHandler(Server *server, int csock) {
         }
 
         rcv.append( buffer.cbegin(), buffer.cend() );
+
+        std::cout << rcv << std::endl;
 
         // TODO: handle the received query
         // TODO: send the result of query

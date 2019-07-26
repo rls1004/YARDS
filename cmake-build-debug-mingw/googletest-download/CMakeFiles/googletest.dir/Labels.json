@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "J:/MZ/GitProjects/YARDS/cmake-build-debug-mingw/googletest-download/CMakeFiles/googletest"
+		},
+		{
+			"file" : "J:/MZ/GitProjects/YARDS/cmake-build-debug-mingw/googletest-download/CMakeFiles/googletest.rule"
+		},
+		{
+			"file" : "J:/MZ/GitProjects/YARDS/cmake-build-debug-mingw/googletest-download/CMakeFiles/googletest-complete.rule"
+		},
+		{
+			"file" : "J:/MZ/GitProjects/YARDS/cmake-build-debug-mingw/googletest-download/googletest-prefix/src/googletest-stamp/googletest-install.rule"
+		},
+		{
+			"file" : "J:/MZ/GitProjects/YARDS/cmake-build-debug-mingw/googletest-download/googletest-prefix/src/googletest-stamp/googletest-mkdir.rule"
+		},
+		{
+			"file" : "J:/MZ/GitProjects/YARDS/cmake-build-debug-mingw/googletest-download/googletest-prefix/src/googletest-stamp/googletest-download.rule"
+		},
+		{
+			"file" : "J:/MZ/GitProjects/YARDS/cmake-build-debug-mingw/googletest-download/googletest-prefix/src/googletest-stamp/googletest-update.rule"
+		},
+		{
+			"file" : "J:/MZ/GitProjects/YARDS/cmake-build-debug-mingw/googletest-download/googletest-prefix/src/googletest-stamp/googletest-patch.rule"
+		},
+		{
+			"file" : "J:/MZ/GitProjects/YARDS/cmake-build-debug-mingw/googletest-download/googletest-prefix/src/googletest-stamp/googletest-configure.rule"
+		},
+		{
+			"file" : "J:/MZ/GitProjects/YARDS/cmake-build-debug-mingw/googletest-download/googletest-prefix/src/googletest-stamp/googletest-build.rule"
+		},
+		{
+			"file" : "J:/MZ/GitProjects/YARDS/cmake-build-debug-mingw/googletest-download/googletest-prefix/src/googletest-stamp/googletest-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest"
+		],
+		"name" : "googletest"
+	}
+}

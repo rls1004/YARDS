@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/j/MZ/GitProjects/YARDS/src/net/Server.cpp
+utility
+-
+Server.h
+/cygdrive/j/MZ/GitProjects/YARDS/src/net/Server.h
+arpa/inet.h
+-
+iostream
+-
+cstring
+-
+vector
+-
+thread
+-
+unistd.h
+-
+
+/cygdrive/j/MZ/GitProjects/YARDS/src/net/Server.h
+netinet/in.h
+-
+string
+-
+

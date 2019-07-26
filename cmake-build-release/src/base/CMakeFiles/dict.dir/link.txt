@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc libdict.a  CMakeFiles/dict.dir/dictionary.cpp.o CMakeFiles/dict.dir/node.cpp.o
+/usr/bin/ranlib.exe libdict.a

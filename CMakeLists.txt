@@ -40,6 +40,7 @@ if(TEST_SRC_FILES)
             gtest_main
             data_pack
             dict
+            net_server
     )
     add_test(UnitTests test_unit)
 endif()

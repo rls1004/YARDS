@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc libdata_pack.a  CMakeFiles/data_pack.dir/data_int.cpp.o CMakeFiles/data_pack.dir/data_boolean.cpp.o CMakeFiles/data_pack.dir/data_float.cpp.o CMakeFiles/data_pack.dir/data_string.cpp.o
+/usr/bin/ranlib.exe libdata_pack.a
